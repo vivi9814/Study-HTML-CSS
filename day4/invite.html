@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body{
+            background-color : rgb(20, 3, 3);
+            font-family : monospace;
+            color : rgb(0, 0, 0);
+        }
+            .first-message {
+                text-align : center;
+            }
+            #frst-back {
+                background-color : rgb(247, 247, 242);
+                border: 5px ridge rgb(240, 240, 240);
+
+            }
+            #left {
+                background-color: rgb(247, 247, 242);
+                width: 45%;
+                border: 4px ridge rgb(240, 240, 240);
+                float: left;
+                margin-top: 10px;
+                margin-left: 5px;
+                padding-left : 10px;
+            }
+            #right {
+                background-color: rgb(247, 247, 242);
+                width: 45%;
+                border: 4px ridge rgb(240, 240, 240);
+                float: right;
+                margin-top: 10px;
+                margin-right: 5px;
+                padding-left:10px;
+            }
+            .more-big {
+                font-size: 15px;
+
+            }
+            #ghost {
+                z-index :3;
+                position : absolute;
+                margin-left: 10px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <img id="ghost" src="https://upload.wikimedia.org/wikipedia/it/7/7c/Boo.png" width= "15%">
+        <div id="frst-back"><h1 class="first-message">You're invited!</h1>
+        <h2 class="first-message">Please come and enjoy the party!</h2></div>
+
+
+        <div id="left"><p class="more-big">Information:</p>
+        <ul>
+            <li>2018.10.31</li>
+            <li></li>
+            <li></li>
+
+        </ul></div>
+        <div id="right"><p class="more-big">contact:</p>
+        <ul>
+            <li>Address:</li>
+            <li>Tel:</li>
+            <li>e-mail:</li>
+        </ul></div>
+    </body>
+</html>
